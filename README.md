@@ -106,5 +106,5 @@ This is a Laravel-based application that generates Ai written blog posts using t
 
 ---
 
-![Screenshot 2025-07-29 172459.png](Screenshot 2025-07-29 172459.png)
+![Screenshot 2025-07-29 172459.png](https://github.com/ant-ramz/blog-ai/blob/main/Screenshot%202025-07-29%20172459.png)
 
