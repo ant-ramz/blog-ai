@@ -9,9 +9,7 @@ This is a Laravel-based application that generates Ai written blog posts using t
 
 ### 1. Prerequisites
 - **Windows / Mac** with PHP 8.1+ installed
--
 -  **Composer** 
-- 
 - **Open AI Account and Functional API Key**
 
 ### 2. Download Files
@@ -90,7 +88,7 @@ This is a Laravel-based application that generates Ai written blog posts using t
 
     http://127.0.0.1:8000/ai-form
 
-## Troubleshooting
+### Troubleshooting
 
 - If php artisan serve fails, enter the following code:
 
@@ -107,4 +105,24 @@ This is a Laravel-based application that generates Ai written blog posts using t
 ---
 
 ![Screenshot 2025-07-29 172459.png](https://github.com/ant-ramz/blog-ai/blob/main/Screenshot%202025-07-29%20172459.png)
+
+---
+
+### Reflection Questions
+
+1. How did the AI output change when you modified the tone or role in your prompt?
+- Originally, the prompt would reply in the normal conversation style for some reason. I slightly changed the code to:
+
+            ['role' => 'system', 'content' => 'You are a professional writing simple multi-paragraph blog posts.'],
+            ['role' => 'user', 'content' => "Write a detailed blog post with the title: {$prompt}."]
+
+
+and this fixed the responses to what the assignment specified.
+
+2. What would you improve about the API integration for a production app?
+- I would definately cache results to decrease costs and increase performance.
+
+3. What’s one thing you learned about Laravel that you hadn’t used before?
+- This was the first time I used Open AI on a personal project/assignment so that was interesting. It's cool to know about how the API keys go into the .env file, and how github won't upload these files (and for good reason!) I think I actually read before on how someone uploaded their API keys and it's a good reminder on how costly this can get if not properly handled. 
+
 
