@@ -9,8 +9,9 @@ This is a Laravel-based application that generates Ai written blog posts using t
 
 ### 1. Prerequisites
 - **Windows / Mac** with PHP 8.1+ installed
-- **Composer** 
-- **Laravel CLI**
+-
+-  **Composer** 
+- 
 - **Open AI Account and Functional API Key**
 
 ### 2. Download Files
@@ -104,3 +105,6 @@ This is a Laravel-based application that generates Ai written blog posts using t
 - With the site now launched, enter a prompt for Open AI to generate a blog post.
 
 ---
+
+![Screenshot 2025-07-29 172459.png](Screenshot 2025-07-29 172459.png)
+
