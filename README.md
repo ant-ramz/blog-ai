@@ -68,7 +68,7 @@ This is a Laravel-based application that generates Ai written blog posts using t
 - Open Terminal
 - Move into your Laravel project folder (type the following code into the CMD)
 
-      cd ~/Downloads/blog-ai-main  
+      cd ~/YOUR DIRECTORY/blog-ai-main  
 
       Replace 'YOUR DIRECTORY' with the directory where your files have been saved at
 
